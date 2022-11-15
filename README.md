@@ -1,4 +1,6 @@
-# Waypoint AWS-ECS Example
+# acmeapp1
+
+Forked from waypoint-examples aws/aws-ecs/nodejs
 
 |Title|Description|
 |---|---|
