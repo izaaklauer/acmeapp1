@@ -33,7 +33,7 @@ app "acmeapp1" {
         task_role_name = var.task_role_name_dev
         security_group_ids = [
           var.app_security_group_id_dev,
-          internal_security_group_id_dev,
+          var.internal_security_group_id_dev,
         ]
         region = var.region
         subnets = [
@@ -68,7 +68,7 @@ app "acmeapp1" {
       task_role_name = var.task_role_name_prod
       security_group_ids = [
         var.app_security_group_id_prod,
-        internal_security_group_id_prod,
+        var.internal_security_group_id_prod,
       ]
       region = var.region
       subnets = [
@@ -87,8 +87,6 @@ app "acmeapp1" {
       }
     }
   }
-}
-
 }
 
 ### All environments
