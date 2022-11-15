@@ -187,5 +187,4 @@ variable "subnet_5_dev" {
   description = "name of fifth ecs task role in dev"
 }
 
-
 ### Prod
