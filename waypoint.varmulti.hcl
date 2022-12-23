@@ -88,8 +88,6 @@ variable "tfc_dev" {
   default = dynamic("terraform-cloud", {
     organization = "acmecorpinfra"
     workspace    = "acmeapp1-dev-us-east-1"
-    # outputs      = ["ecs_cluster_name", "log_group_name", ...]
-    all_outputs  = true
   })
   type        = map
   sensitive   = false
